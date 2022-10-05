@@ -1,11 +1,6 @@
 # Quiz-Wiz
 
 Group Greight - Quiz Wiz
+Patrick Luu, Katherine Casey, Jasmine Cadotte, Adrian Ghattas, Mia Partington
 
 Quiz Wiz is a web application that uses AI technology to develop quiz questions for you based on a given text.
-
-Patrick Luu
-\nKatherine Casey
-\nJasmine Cadotte
-\nAdrian Ghattas
-\nMia Partington
