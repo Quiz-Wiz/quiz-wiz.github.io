@@ -37,3 +37,7 @@ td span {
 }
 body{ font-family: "cambria", cambria;
 }
+
+#logo {
+	max-width: 30px;
+}
