@@ -10,6 +10,7 @@ table {
 	text-align:center;
 	border-collapse:collapse;
 	font-size:14pt;
+	font-family:cambria;
 	width:100%;
 	margin:0px;
 }
@@ -29,7 +30,7 @@ td span {
 	<col style="background-color: #12908E" span="4"/>
   </colgroup>
   <tr>
-	<td style="text-align: left"><a href="index.html">img n/a</a></td>
+	<td style="text-align: left"><a href="index.html"><img src="/mockups/logo.jpg" style="width:40px;height:40px"></a></td>
 	<td></td>
 	<td></td>
 	<td style="text-align: right;"><a href="login.html"><span>Login|Signup</span></a></td>
@@ -39,7 +40,7 @@ td span {
   </tr>
   <tr>
 	<td><a href="index.html">Home</a></td>
-	<td>Our Product (add link l8tr)</td>
+	<td><a href"product.html">Our Product</a></td>
 	<td><a href="AboutPage.html">About Us</a></td>
 	<td><a href="FAQ.html">FAQ</a></td>
   </tr>
