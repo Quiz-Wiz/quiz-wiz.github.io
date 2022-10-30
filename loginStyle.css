@@ -3,9 +3,10 @@
 }
 
 body {
-    margin: 0;
+    font-family: "Cambria", Cambria;
+    background: #97CECC;
+    color: #000;
 }
-
 
 /* Header styles */
 table {
