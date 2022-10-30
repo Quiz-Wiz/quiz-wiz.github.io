@@ -10,6 +10,7 @@ table {
 	text-align:center;
 	border-collapse:collapse;
 	font-size:14pt;
+	font-family: cambria;
 	width:100%;
 	margin:0px;
 }
@@ -19,6 +20,19 @@ a {
 }
 td span {
 	background-color:#F98F45;
+}
+.center {
+    margin: auto;
+    width:40%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hideform {
+    display: none;
+}
+body {
+    font-family:cambria;
+    font-size:12pt;
 }
 </style>
 </head>
@@ -39,10 +53,33 @@ td span {
   </tr>
   <tr>
 	<td><a href="index.html">Home</a></td>
-	<td>Our Product (add link l8tr)</td>
+	<td><a href="product.html">Our Product</a></td>
 	<td><a href="AboutPage.html">About Us</a></td>
-	<td>FAQ (add link l8tr)</td>
+	<td><a href="FAQ.html">FAQ</a></td>
   </tr>
 </table>
+<br>
+<br>
+<label for="copypastetext">Insert the text you'd like turned into easy to study cue cards:</label>
+<br>
+<textarea id="copypastetext" name="copypastetext" rows="10" cols="75"></textarea>
+<br>
+<div class="center hideform">
+    <button id="close" style="float: right;">X</button>
+    <p style="text-align:center">Quiz Wiz is still in development! Check back at a later date</p>
+</div>
+<button title="Submit your text" id="show">Submit</button>
+<script>
+$('#show').on('click', function () {
+    $('.center').show();
+    $(this).hide();
+})
+
+$('#close').on('click', function () {
+    $('.center').hide();
+    $('#show').show();
+})
+</script>
+ 
 </body>
 </html>
