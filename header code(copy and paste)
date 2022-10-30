@@ -10,6 +10,7 @@ table {
 	text-align:center;
 	border-collapse:collapse;
 	font-size:14pt;
+	font-family:cambria;
 	width:100%;
 	margin:0px;
 }
@@ -39,7 +40,7 @@ td span {
   </tr>
   <tr>
 	<td><a href="index.html">Home</a></td>
-	<td>Our Product (add link l8tr)</td>
+	<td><a href"product.html">Our Product</a></td>
 	<td><a href="AboutPage.html">About Us</a></td>
 	<td><a href="FAQ.html">FAQ</a></td>
   </tr>
