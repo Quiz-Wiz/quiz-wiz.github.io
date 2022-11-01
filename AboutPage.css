@@ -39,7 +39,10 @@ a {
 td span {
 	background-color:#F98F45;
 }
-body{ font-family: "cambria", cambria;
+body {
+    font-family: "Cambria", Cambria;
+    background: #97CECC;
+    color: #000;
 }
 
 #logo {
