@@ -1,0 +1,8 @@
+font: cambria
+colour palette:
+{#C4421A.
+#F98F45,
+#97CECC,
+#12908E
+#16594A}
+use header code at the top of each page
