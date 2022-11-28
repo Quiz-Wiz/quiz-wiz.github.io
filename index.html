@@ -129,38 +129,11 @@ body {
 <textarea id="copypastetext" name="copypastetext" rows="10" cols="75"></textarea>
 
 <br>
-
-<div class="center hideform">
-
-    <button id="close" style="float: right;">X</button>
-
+<div class="center hideform" style="display:none" id="popup">
+    <button type="button" id="close" style="float: right;" onclick="document.getElementById('popup').style.display='none'">X</button>
     <p style="text-align:center">Quiz Wiz is still in development! Check back at a later date</p>
-
 </div>
-
-<button title="Submit your text" id="show">Submit</button>
-
-<script>
-
-$('#show').on('click', function () {
-
-    $('.center').show();
-
-    $(this).hide();
-
-})
-
-
-
-$('#close').on('click', function () {
-
-    $('.center').hide();
-
-    $('#show').show();
-
-})
-
-</script>
+<button type="button" title="Submit your work!" id="submit button" onclick="document.getElementById('popup').style.display='block'">Submit</button>
 
  
 
